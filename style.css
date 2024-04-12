@@ -1,0 +1,80 @@
+/* Colors and Fonts */
+body {
+	background-color: lightgoldenrodyellow;
+	color: lightcoral;
+	font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+h1, h2 {
+	color: darkcoral;
+	font-weight: bolder;
+	font-family: Times New Roman, serif;
+	font-weight: 600;
+}
+a {
+	text-decoration: none;
+	color: lightcoral;
+	font-family: Times New Roman, serif;
+	font-weight: 530;
+}
+a:hover {
+	color: #6AD4DD;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+.card-design {
+	background: lightgoldenrodyellow;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: lightcoral;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #6AD4DD;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: lightcoral;
+}
+.list-inline i:hover {
+	color: #6AD4DD;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
